@@ -1,0 +1,264 @@
+/* For MOBILEMOBILE*/
+@media screen and (max-width: 320px) {
+  .body {
+    max-width: 320px;
+    overflow-x: hidden;
+  }
+  .cv-page {
+    width: 320px;
+  }
+
+  /*banner*/
+  .banner {
+    height: 600px;
+    width: 320px;
+    background-size: cover;
+  }
+
+  .bannername h1 {
+    font-size: 45px;
+    margin-left: -5px;
+  }
+
+  .bannername p {
+    margin-left: 15px;
+  }
+
+  /*menu*/
+  .menu {
+    margin-left: -10px;
+    margin-top: 260px;
+    width: 320px;
+    height: 160px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .menu div {
+    border-right: none;
+  }
+
+  .menu div:nth-child(5) {
+    margin-top: -50px;
+  }
+
+  /*target-info*/
+  .target-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 320px;
+    height: 750px;
+    margin-top: 0px;
+  }
+
+  #target {
+    width: 320px;
+    margin-left: 20px;
+    padding-top: 5px;
+  }
+
+  #target .section-content-target {
+    width: 280px;
+    height: 350px;
+  }
+
+  #info {
+    height: 400px;
+    width: 352px;
+    margin-left: -32px;
+    padding-top: 10px;
+  }
+
+  #info h2 {
+    margin-left: 50px;
+  }
+
+  /*section-info*/
+  .section-info1 {
+    width: 320px;
+  }
+
+  .section-info1 .enteremail {
+    width: 200px;
+  }
+
+  /*section*/
+  .allsection {
+    margin-top: 100px;
+    margin-left: -10px;
+    display: grid;
+    grid-template-columns: 260px;
+  }
+
+  .allsection .section {
+    width: 260px;
+    height: 140px;
+  }
+
+  /*section-title2*/
+  .section-title2 {
+    display: grid;
+    grid-template-columns: 200px 50px;
+    margin-bottom: 10px;
+  }
+
+  .section-title2 .section-title {
+    margin-bottom: 0px;
+    margin-left: 20px !important;
+  }
+
+  #skill {
+    margin-top: 2px !important;
+    height: 140px;
+  }
+
+  /*certi*/
+  .section-certi {
+    width: 320px;
+    height: 950px;
+    margin-top: 32px;
+  }
+  /*certi-content*/
+  .certi1 {
+    width: 250px;
+    display: grid;
+    grid-template-columns: 250px;
+    margin-left: -40px;
+    border-bottom: none !important;
+  }
+
+  .certi1 .certi:first-child {
+    border: none;
+    margin-left: -15px;
+    margin-top: -15px;
+    padding-right: 0px;
+  }
+
+  .certi1 .certi {
+    border-bottom: solid 1px rgb(255, 206, 44) !important;
+    width: 280px !important;
+  }
+
+  .certi1 .certi:last-child {
+    margin-left: -15px;
+    margin-top: 30px;
+  }
+
+  .section-certi img {
+    width: 280px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+
+  .section-certi p {
+    width: 280px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  .certi2 {
+    display: grid;
+    grid-template-columns: 240px;
+    margin-left: -30px;
+    margin-top: -122px;
+    font-weight: bold;
+  }
+
+  /*project*/
+  .project {
+    width: 250px;
+    height: 850px;
+    margin-bottom: 32px;
+  }
+
+  .project-content {
+    margin-left: -10px;
+    display: grid;
+    grid-template-columns: 250px;
+  }
+
+  .project img {
+    width: 245px;
+  }
+
+  .project .projecttittle {
+    width: 250px;
+    height: 35px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  .project .projecttittle2 {
+    width: 250px;
+    height: 55px;
+    padding-left: 10px;
+    line-height: 1.1;
+  }
+
+  .pro-details {
+    width: 250px;
+    height: 100px;
+  }
+
+  .pro-details .icon-user-1 {
+    margin-top: 30px;
+    margin-left: -78px;
+  }
+
+  .pro-details .Funix {
+    margin-top: 30px;
+  }
+
+  .pro-details .icon-lamp {
+    margin-top: 60px;
+    margin-left: -98px;
+  }
+
+  .pro-details .Dev {
+    margin-top: 60px;
+  }
+
+  .pro-details .pro-year p {
+    font-size: smaller;
+    color: white;
+    padding-top: 1px;
+    margin-left: 8px;
+  }
+
+  .describe p {
+    width: 248px;
+    height: 240px;
+  }
+
+  .task p {
+    width: 248px;
+    height: 185px;
+  }
+
+  /*contact*/
+  .section-contact {
+    width: 320px;
+    margin-left: -40px;
+    height: 170px;
+  }
+
+  .contact {
+    width: 300px;
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    gap: 20px;
+    margin-left: 0px;
+    margin-top: 2px;
+  }
+
+  .contact i {
+    margin-top: 30px;
+  }
+
+  .contact a {
+    display: none;
+  }
+
+  #contact h2 {
+    display: none;
+  }
+}

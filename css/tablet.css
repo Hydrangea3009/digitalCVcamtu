@@ -1,0 +1,198 @@
+/* For IPAD AIR */
+@media screen and (max-width: 820px) {
+  body {
+    max-width: 820px;
+    overflow-x: hidden;
+  }
+
+  /*banner*/
+  .banner {
+    width: 820px;
+  }
+
+  .bannername h1 {
+    margin-left: 200px;
+  }
+
+  .bannername p {
+    margin-left: 260px;
+  }
+
+  /*menu*/
+  .menu {
+    width: 820px;
+    height: 30px;
+    margin-left: -45px;
+    margin-top: 120px;
+    padding-top: 5px;
+    grid-template-columns: 1fr 135px 110px 80px 140px 100px 1fr;
+  }
+
+  .menu .namesub {
+    display: none !important;
+  }
+  .menu .sub {
+    display: none !important;
+  }
+
+  /*target-info*/
+  .target-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(219, 219, 219);
+    width: 820px;
+    margin-left: -40px;
+    height: 400px;
+    margin-top: 0px;
+  }
+
+  #target {
+    width: 350px;
+    margin-left: 40px;
+  }
+
+  #target .section-content-target {
+    width: 350px;
+  }
+
+  #info {
+    height: 400px;
+    width: 395px;
+    margin-left: 0px;
+  }
+
+  /*section-info*/
+  .section-info1 {
+    width: 395px;
+    height: 400px;
+    line-height: 32px;
+  }
+
+  .section-info1 .enteremail {
+    width: 320px;
+  }
+
+  /*section*/
+  .allsection {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 350px 350px;
+  }
+
+  #skill {
+    margin-top: 0px !important;
+  }
+
+  /*certi*/
+  .section-certi {
+    width: 820px;
+    height: 680px;
+  }
+
+  .certi1 {
+    width: 680px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    column-gap: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .certi1 .certi:first-child {
+    padding-right: 355px;
+    margin-left: -30px;
+  }
+
+  .certi1 .certi {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 30px;
+  }
+
+  .section-certi img {
+    width: 320px;
+    margin-left: 0px;
+  }
+
+  .section-certi p {
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 8px;
+  }
+
+  .certi2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0px;
+  }
+
+  /*project*/
+  .project {
+    width: 230px;
+  }
+
+  .project-content {
+    margin-left: -15px;
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+    column-gap: 25px;
+  }
+
+  .project img {
+    width: 225px;
+  }
+
+  .project .projecttittle {
+    width: 230px;
+    height: 35px;
+    padding-left: 10px;
+  }
+  .project .projecttittle2 {
+    width: 230px;
+    height: 55px;
+    padding-left: 10px;
+    line-height: 1.1;
+  }
+
+  .pro-details {
+    height: 75px;
+    width: 230px;
+  }
+
+  .pro-details .icon-lamp {
+    margin-top: 35px;
+    margin-left: -98px;
+  }
+
+  .pro-details .Dev {
+    margin-top: 35px;
+  }
+
+  .pro-details .pro-year p {
+    font-size: smaller;
+    color: white;
+    padding-top: 1px;
+    margin-left: 8px;
+  }
+
+  .describe p {
+    height: 245px;
+    display: grid;
+    grid-template-columns: 80px 130px;
+    width: 228px;
+  }
+
+  .task p {
+    height: 175px;
+    display: grid;
+    grid-template-columns: 80px 130px;
+    width: 228px;
+  }
+
+  /*contact*/
+  .section-contact {
+    width: 850px;
+    margin-left: -80px;
+    height: 170px;
+  }
+}

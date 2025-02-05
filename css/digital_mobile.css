@@ -1,0 +1,198 @@
+@media screen and (max-width: 320px) {
+  body {
+    overflow-x: hidden;
+    width: 320px !important;
+  }
+  /* Layout */
+
+  .layout {
+    display: grid;
+    grid-template-columns: 300px !important;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr !important;
+    gap: 20px;
+    width: 300px;
+    height: 4000px;
+    margin-left: 0px;
+    margin-bottom: 25px !important;
+    margin-top: 5px !important;
+  }
+  .content1,
+  .content4,
+  .content5 {
+    grid-column: 1/2;
+  }
+  .content2 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    height: 860px;
+  }
+  .content3 {
+    grid-row: 5/6;
+    grid-column: 1/2;
+  }
+
+  .header {
+    width: 250px;
+    margin-left: 15px;
+  }
+
+  .header h1 {
+    margin-left: -190px !important;
+    color: blue;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
+  /* Goal */
+  .content1 {
+    width: 280px !important;
+    height: 700px;
+    margin-left: -20px;
+    margin-top: 0px;
+  }
+
+  .goallist {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 250px;
+    margin-left: -30px;
+    height: 180px;
+    margin-top: 0px;
+  }
+
+  .goalp h2 {
+    margin-left: -175px;
+    margin-top: -20px;
+  }
+
+  .goalp p {
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+
+  /* Scope */
+  .content4 {
+    width: 280px !important;
+    height: 480px;
+    margin-left: -20px;
+    margin-top: -70px !important;
+  }
+
+  .scopecontent {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 260px;
+    margin-left: 12px;
+    height: 150px;
+    margin-top: 0px;
+  }
+
+  .scopecontent h2 {
+    margin-left: -202px !important;
+  }
+  .scopecontent .in {
+    margin-left: -225px !important;
+  }
+
+  .scopecontent p {
+    margin-left: 0px;
+  }
+
+  /* Team */
+  .content2 {
+    width: 280px !important;
+    height: 600px;
+    margin-left: -20px;
+    margin-top: -360px;
+  }
+
+  .teamlist {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 250px;
+    margin-left: -80px;
+    height: 120px;
+    margin-top: 0px;
+  }
+
+  .teamp h2 {
+    margin-left: -18px;
+    margin-top: -20px;
+  }
+
+  .teamp p {
+    margin-left: -16px;
+    margin-bottom: 20px;
+  }
+
+  .icon {
+    margin-left: 105px;
+  }
+
+  /* Primary */
+  .content5 {
+    width: 280px !important;
+    height: 420px;
+    margin-left: -20px;
+    margin-top: -530px;
+  }
+
+  .primary h1 {
+    margin-left: -160px !important;
+  }
+
+  .primcontent {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 180px;
+    margin-left: 95px;
+    height: 160px;
+    margin-top: 0px;
+  }
+
+  .primcontent .ico {
+    margin-left: 34px !important;
+  }
+
+  /* Timeline */
+  .content3 {
+    width: 280px !important;
+    height: 1380px !important;
+    margin-left: -20px;
+    margin-top: -880px;
+  }
+
+  .timeline h1 {
+    margin-left: -160px !important;
+  }
+
+  .timelinelist {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 150px !important;
+  }
+
+  .timelinep {
+    margin-bottom: 10px;
+    margin-top: -10px;
+    width: 250px;
+  }
+
+  .timelinep h2 {
+    margin-left: -115px !important;
+  }
+  .timelinep p {
+    margin-left: -60px !important;
+  }
+
+  .date {
+    font-size: 35px;
+    height: 60px;
+    width: 60px;
+    margin-left: -25px !important;
+    margin-bottom: 10px;
+  }
+}

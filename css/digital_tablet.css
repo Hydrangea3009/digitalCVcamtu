@@ -1,0 +1,198 @@
+@media screen and (max-width: 820px) {
+  body {
+    overflow-x: hidden;
+  }
+  /* Layout */
+  .layout {
+    display: grid;
+    grid-template-columns: 800px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr !important;
+    gap: 20px;
+    width: 800px;
+    height: 3210px;
+    margin-left: 0px;
+  }
+  .content1,
+  .content4,
+  .content5 {
+    grid-column: 1/2;
+  }
+  .content2 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    height: 860px;
+  }
+  .content3 {
+    grid-row: 5/6;
+    grid-column: 1/2;
+    height: 860px;
+  }
+
+  .header {
+    width: 700px;
+    margin-left: 15px;
+  }
+
+  .header h1 {
+    margin-left: -180px !important;
+    color: blue;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: -630px !important;
+  }
+
+  /* Goal */
+  .content1 {
+    width: 730px !important;
+    height: 480px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+  .goallist {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 700px;
+    margin-left: -30px;
+    height: 115px;
+    margin-top: 0px;
+  }
+
+  .goalp h2 {
+    margin-left: -580px;
+    margin-top: -20px;
+  }
+
+  .goalp p {
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: -160px;
+    margin-bottom: 10px;
+  }
+
+  /* Scope */
+  .content4 {
+    width: 730px !important;
+    height: 400px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+  .cont h2 {
+    margin-left: -455px !important;
+  }
+  .scopecontent .in {
+    margin-left: -480px !important;
+  }
+  .scopecontent {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 700px;
+    margin-left: -55px;
+    height: 180px;
+    margin-top: 0px;
+  }
+
+  /* Team */
+  .content2 {
+    width: 730px !important;
+    height: 600px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+  .teamlist {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 700px;
+    margin-left: -80px;
+    height: 120px;
+    margin-top: 0px;
+  }
+
+  .teamp h2 {
+    margin-left: -420px;
+    margin-top: -20px;
+  }
+
+  .teamp p {
+    margin-left: -420px;
+    margin-bottom: 20px;
+  }
+
+  .icon {
+    margin-left: 110px;
+  }
+
+  /* Primary */
+  .content5 {
+    width: 730px !important;
+    height: 400px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+  .primary h1 {
+    margin-left: -600px !important;
+  }
+
+  .primcontent {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 700px;
+    margin-left: 20px;
+    height: 160px;
+    margin-top: 0px;
+  }
+
+  .primcontent .ico {
+    margin-left: 340px;
+    margin-left: 335px !important;
+  }
+  .primcontent p {
+    margin-left: -80px !important;
+  }
+
+  /* Timeline */
+  .content3 {
+    width: 730px !important;
+    height: 1200px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+  .timeline h1 {
+    margin-left: -600px !important;
+  }
+
+  .timelinelist {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 130px;
+    width: 700px;
+    margin-left: 0px;
+  }
+
+  .timelinep {
+    margin-left: -30px !important;
+    margin-bottom: 10px;
+    width: 700px;
+  }
+
+  .timelinep p {
+    margin-left: -450px !important;
+  }
+
+  .timelinep h2 {
+    margin-left: -510px !important;
+  }
+
+  .date {
+    font-size: 35px;
+    height: 60px;
+    width: 60px;
+    margin-left: 0px !important;
+    margin-bottom: 0px;
+  }
+}
